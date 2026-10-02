@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.sqlite3
+.env
+
+# Node
+node_modules/
+dist/
+
+# Misc
+.DS_Store
