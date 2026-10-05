@@ -33,7 +33,7 @@ or register a fresh account.
 ### With Postgres + Redis (Docker, optional)
 
 ```bash
-docker compose up -d db redis   # starts Postgres 16 + Redis 7
+docker compose up -d db redis   #Postgres 16 + Redis 7
 cd backend
 DATABASE_URL=postgres://learning:learning@localhost:5432/learningtool \
 REDIS_URL=redis://localhost:6379/1 \
